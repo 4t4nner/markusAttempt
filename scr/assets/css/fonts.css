@@ -1,0 +1,28 @@
+
+/** Circle **/
+@font-face {
+    font-family: "CircleBold";
+    src: url("../fonts/crcl/Circe-Bold.eot") format("eot");
+    src: url("../fonts/crcl/Circe-Bold.woff") format("woff");
+    src: url("../fonts/crcl/Circe-Bold.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "CircleBold";
+    src: url("../fonts/crcl/Circe-ExtraBold.eot") format("eot");
+    src: url("../fonts/crcl/Circe-ExtraBold.woff") format("woff");
+    src: url("../fonts/crcl/Circe-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+/*MyriadPro*/
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("../fonts/mrp/MyriadPro-Regular.eot") format("eot");
+    src: url("../fonts/mrp/MyriadPro-Regular.woff") format("woff");
+    src: url("../fonts/mrp/MyriadPro-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
