@@ -1,0 +1,31 @@
+.not-found{
+    /*cf0e4f*/
+}
+.not-found .content{
+    margin: 51px 0 0 123px;
+}
+.not-found__text-big{
+    font-size: 500px;
+    font-family: "CircleBold";
+    font-weight: 800;
+}
+
+
+.run:before{
+
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    height: .5em;
+    top: .55em;
+    width: 0;
+    max-width: 100%;
+    transition: width .3s ease;
+    left: 0;
+    background: #f06466;
+
+}
+.run:hover:before{
+    width: calc(100% - 30px);
+}
