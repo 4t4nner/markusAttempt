@@ -1,16 +1,37 @@
 .not-found{
     /*cf0e4f*/
 }
-.not-found .content{
-    margin: 51px 0 0 123px;
-}
-.not-found__text-big{
-    font-size: 500px;
+.not-found__content{
+    margin: -51px 0 0 114px;
     font-family: "CircleBold";
+}
+.not-found .not-found__text-big{
+    font-size: 500px;
     font-weight: 800;
+    margin: 0 0 -215px 0;
+}
+.not-found .not-found__text-medium{
+
+    font-size: 95px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+
+    margin: 0 0 0 -3px;
+}
+.not-found .not-found__text-small{
+
+    font-family: "Myriad Pro Regular";
+    font-size: 35px;
+    font-weight: 900;
+    margin: 16px 0 0px 1px;
+    letter-spacing: 0.2px;
 }
 
-
+.run{
+    position: relative;
+    display: block;
+    text-align: left;
+}
 .run:before{
 
     content: "";
@@ -23,9 +44,9 @@
     max-width: 100%;
     transition: width .3s ease;
     left: 0;
-    background: #f06466;
+    background: #cf0e4f;
 
 }
 .run:hover:before{
-    width: calc(100% - 30px);
+    width: 200px;
 }

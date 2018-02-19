@@ -19,10 +19,12 @@
 
 /*MyriadPro*/
 @font-face {
-    font-family: "Myriad Pro";
-    src: url("../fonts/mrp/MyriadPro-Regular.eot") format("eot");
-    src: url("../fonts/mrp/MyriadPro-Regular.woff") format("woff");
-    src: url("../fonts/mrp/MyriadPro-Regular.ttf") format("truetype");
-    font-weight: 400;
+
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/mrp/MyriadPro-Regular.eot');
+    src: url('../fonts/mrp/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/mrp/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/mrp/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
